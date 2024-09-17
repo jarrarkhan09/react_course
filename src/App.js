@@ -1,6 +1,7 @@
 import React from "react";
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
+import Header from "./Components/Header/Header";
+import Footer, { Main } from "./Components/Footer/Footer";
+import "./App.css";
 
 function App() {
   const name = "Jarrar khan";
@@ -19,7 +20,9 @@ function App() {
         Excepturi temporibus, modi cupiditate nesciunt, consequuntur minima
         numquam dignissimos veniam, animi labore nostrum.
       </p>
+
       <Footer />
+      <Main />
     </>
   );
 }

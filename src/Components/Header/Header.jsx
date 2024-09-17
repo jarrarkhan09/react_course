@@ -1,8 +1,8 @@
 const Header = () => {
   return (
     <>
-      <h1>Header</h1>
-      
+      <hr />
+      <h1>Header Header Header Header Header </h1>
       <hr />
     </>
   );
