@@ -1,18 +1,13 @@
+import "./footer.css";
+
 const Footer = () => {
   return (
     <>
-      <hr />
-      <h1 >Footer Footer Footer Footer Footer</h1>
-      <hr />
+      <h1 className="footer_Heading">
+        Footer 
+      </h1>
     </>
   );
 };
 
-function Main () {
-  return(
-    <h3>This is main function whose used to check the footer function work properly</h3>
-  )
-}
 export default Footer;
-
-export  {Main} ;

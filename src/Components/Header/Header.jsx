@@ -1,9 +1,9 @@
+import "./header.css";
+
 const Header = () => {
   return (
     <>
-      <hr />
-      <h1>Header Header Header Header Header </h1>
-      <hr />
+      <h1 className="header_Heading">Header</h1>
     </>
   );
 };
