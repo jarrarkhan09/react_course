@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Student name="Jarrar Khan" age={22} />\
+      <Student name="Jarrar Khan" age={22} />
       <p style={{ color: "skyblue" }}>
         This is a portfolio website Lorem ipsum dolor sit amet, consectetur
         adipisicing e molestiae ut neque officia. Et autem placeat accusamus.
